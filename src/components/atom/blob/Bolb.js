@@ -23,13 +23,13 @@ const Blob = ({
     const { path, seedValue } = blobshape({
       growth,
       edges,
-      size,
+      size: boxSize,
       seed,
     });
     setPath(path);
     setSeedValue(seedValue);
     typeof onMount === "function" && onMount({ seedValue });
-  }, [growth, edges, size, setPath, setSeedValue, onMount, randomRange]);
+  }, [growth, edges, size, setPath, setSeedValue, onMount, randomRange, boxSize]);
   return (
     <g
       transform={`translate(${(boxSize - size) / 2}, ${
