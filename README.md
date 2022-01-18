@@ -42,7 +42,7 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" />
 </div>
 
-# Libraries and frameworks
+## Libraries and frameworks
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" />
