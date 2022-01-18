@@ -23,8 +23,9 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://avatars.githubusercontent.com/u/13288987?s=200&v=4" />
 </div>
 
+# Skills
 
-# Languages
+## Languages
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
@@ -61,7 +62,7 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" />
 </div>
                                                                                                                   
-# Design Tools
+## Design Tools
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/illustrator/illustrator-line.svg" />
@@ -70,7 +71,7 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/inkscape/inkscape-plain.svg" />
 </div>
 
-# Design Systems
+## Design Systems
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" />
@@ -78,20 +79,20 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/foundation/foundation-original.svg" />
 </div>
 
-# VCS
+## VCS
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/subversion/subversion-original.svg" />
 </div>
 
-# CI
+## CI
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/codecov/codecov-plain.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/circleci/circleci-plain.svg" />
 </div>
 
-# Tools
+## Tools
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/storybook/storybook-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
@@ -104,7 +105,7 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ssh/ssh-original.svg" />
 </div>
 
-# Package Managers
+## Package Managers
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/yarn/yarn-original.svg" />
@@ -118,18 +119,18 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/karma/karma-original.svg" />
 </div>
 
-# BBDD
+## BBDD
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" />
 </div>
 
-# CMS
+## CMS
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg" />
 </div>
 
-# IDE
+## IDE
 <div style="display: flex">
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" />
 </div>
