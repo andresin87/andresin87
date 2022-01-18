@@ -29,7 +29,16 @@ const Blob = ({
     setPath(path);
     setSeedValue(seedValue);
     typeof onMount === "function" && onMount({ seedValue });
-  }, [growth, edges, size, setPath, setSeedValue, onMount, randomRange, boxSize]);
+  }, [
+    growth,
+    edges,
+    size,
+    setPath,
+    setSeedValue,
+    onMount,
+    randomRange,
+    boxSize,
+  ]);
   return (
     <g
       transform={`translate(${(boxSize - size) / 2}, ${
