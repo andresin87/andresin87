@@ -3,8 +3,8 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
 
 <div style="display: flex">
   <div height="400">
-    <a href="https://twitter.com/andresin87"><img height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" /></a>
     <a href="https://www.linkedin.com/in/andr%C3%A9s-lucas-enciso-17446131/"><img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" /></a>
+    <a href="https://twitter.com/andresin87"><img height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg" /></a>
     <a href="https://facebook.com/andresin87/"><img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/facebook/facebook-original.svg" /></a>
     <a href="https://dev.to/andresin87"><img width="50" src="https://cdn.worldvectorlogo.com/logos/devto.svg" /></a>
     <a href="https://github.com/andresin87/"><img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" /></a>
