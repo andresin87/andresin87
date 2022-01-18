@@ -13,7 +13,7 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
     <a href="https://gitter.im/andresin87"><img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitter/gitter-plain.svg" /></a>
     <a href="hhttp://be.net/andresin87"><img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/behance/behance-original.svg" /></a>
   </div>
-  <img  width="400" height="165" src="https://github-readme-stats.vercel.app/api?username=andresin87&show_icons=true&hide_border=false&line_height=20&title_color=0366d6&icon_color=1b93c9&show_owner=true&include_all_commits=true"/>
+  <img  width="400" height="165" src="https://github-readme-stats.vercel.app/api?username=andresin87&show_icons=true&hide_border=false&line_height=20&title_color=0366d6&icon_color=1b93c9&show_owner=true&include_all_commits=true&theme=radical"/>
 
   <!-- <img  width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=David-Desmaisons&hide=Jupyter%20notebook,apacheconf&layout=compact)](https://github.com/anuraghazra/github-readme-stats"/> -->
 </div>
