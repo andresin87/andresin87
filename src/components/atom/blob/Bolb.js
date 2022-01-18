@@ -23,7 +23,7 @@ const Blob = ({
     const { path, seedValue } = blobshape({
       growth,
       edges,
-      size: boxSize,
+      size,
       seed,
     });
     setPath(path);

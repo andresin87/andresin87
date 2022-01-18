@@ -1,4 +1,4 @@
-export default {
+const darkTheme = {
   colors: {
     brand1: {
       50: "#c1e5fb",
@@ -38,3 +38,5 @@ export default {
     },
   },
 };
+
+export default darkTheme;
