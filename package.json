@@ -1,20 +1,28 @@
 {
-  "name": "app",
-  "version": "0.1.0",
+  "name": "andresin87",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "flush": "rm -rf ./.next/static ./.next/cache"
   },
   "dependencies": {
-    "next": "11",
-    "octonode": "0",
-    "query-string": "6",
-    "react": ">=17.0.0",
-    "react-dom": ">=17.0.0"
+    "@chakra-ui/icons": "1",
+    "@chakra-ui/react": "1",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "framer-motion": "4",
+    "next": "12",
+    "object-path": "0",
+    "react": "17",
+    "react-dom": "17",
+    "ua-parser-js": "1"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "eslint": "8",
+    "eslint-config-next": "12",
+    "prettier": "2"
   }
 }
