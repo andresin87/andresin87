@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "*/5 * * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["metrics"]}
@@ -17,6 +17,7 @@ jobs:
           config_timezone: Europe/Madrid
           template: classic
           config_output: json
+          filename: data/base.json
   github-metrics:
     needs: [base]
     runs-on: ubuntu-latest
