@@ -31,6 +31,9 @@ jobs:
           config_output: svg
           config_display: columns
           filename: data/iso-calendar-columns.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
   iso-calendar-large:
     needs: [ base ]
     runs-on: ubuntu-latest
@@ -44,6 +47,9 @@ jobs:
           config_output: svg
           config_display: large
           filename: data/iso-calendar-large.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
   iso-calendar-regular:
     needs: [ base ]
     runs-on: ubuntu-latest
@@ -57,6 +63,9 @@ jobs:
           config_output: svg
           config_display: regular
           filename: data/iso-calendar-regular.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
   github-metrics:
     needs: [base]
     runs-on: ubuntu-latest
