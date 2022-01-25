@@ -28,7 +28,7 @@ jobs:
             user: andresin87
             config_timezone: Europe/Madrid
             template: classic
-            config_output: json
+            config_output: svg
             filename: data/languages.svg
             base: ""
             plugin_languages: yes
