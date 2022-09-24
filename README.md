@@ -50,26 +50,17 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/socketio/socketio-original.svg" />
-  <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" />-->
-</div>
-  <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gatsby/gatsby-original.svg" />-->
-</div>
-  <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg" />-->
-</div>
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" />
   <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/processing/processing-original.svg" />
+  <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
+  <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" />-->
+  <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gatsby/gatsby-original.svg" />-->
+  <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg" />-->
   <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" />-->
-</div>
-  <img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />-->
-</div>
   <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" />-->
-</div>
   <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/backbonejs/backbonejs-original.svg" />-->
-</div>
   <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg" />-->
-</div>
   <!--<img width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" />-->
-</div>
 </div>
                                                                                                                   
 ## Design Tools
