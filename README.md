@@ -138,7 +138,7 @@ Design Systems & Dataviz Engineer. OpenSource contributor.
 
 # Brands
 <div style="display: flex">
-  <img width="50" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEcgPLBQNd72g/company-logo_200_200/0/1625221726962?e=1650499200&v=beta&t=tW9auCophB_eKeSFunUbpM_DYRB_IUpE4qfn00IRakI" />
-  <img width="50" src="https://media-exp1.licdn.com/dms/image/C4D0BAQH1QLoDPNc4eA/company-logo_200_200/0/1625081732773?e=1650499200&v=beta&t=2RXTCdDWU-dBEy0XeKxMRQuxLXWyedz69-0xDJNY25A" />
+  <img width="50" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHvT8VMtzuVrw/company-logo_200_200/0/1657035370812?e=1672272000&v=beta&t=SbH5N9bhchckBHtmlHgHIWvJ55scZVV_DtiNPT7ruBc" />
+  <img width="50" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/vvjeju8thq0l0x4pck8y" />
   <img width="50" src="https://media.glassdoor.com/sql/708365/userzoom-squarelogo-1602783152794.png" />
 </div>
