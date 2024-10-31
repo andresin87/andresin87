@@ -1,5 +1,5 @@
 import { ComponentPropsWithoutRef, ReactNode } from "react";
-import { Slot } from "@radix-ui/react-slot";
+import {Slot, Slottable} from "@radix-ui/react-slot";
 
 import { cn } from "@/lib/utils";
 
@@ -21,7 +21,8 @@ export const LayoutFooter = ({ children, className }: LayoutFooterType) => {
       data-component="layout.footer"
       className={cn(layoutFooterStyles(), className)}
     >
-      {children}
+      <div className="absolute top-0 -z-10 bg-background-variant opacity-75 h-full w-full"/>
+      <Slottable>{children}</Slottable>
     </Slot>
   );
 };

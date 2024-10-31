@@ -20,7 +20,7 @@ export const scrollAreaScrollBarStyles = cva(
           "surface",
         ]
       >({
-        main: ["bg-background-variant"],
+        main: ["bg-background-variant bg-opacity-50"],
         support: [],
         accent: [],
         basic: [],

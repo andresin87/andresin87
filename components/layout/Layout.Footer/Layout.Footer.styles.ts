@@ -8,7 +8,8 @@ export const layoutFooterStyles = cva([
   "px-[var(--spacing-x)] py-[var(--spacing-y)]",
   "hidden",
   "md:grid",
-  "bg-background-variant text-on-background-variant",
+  "backdrop-blur-sm",
+  "text-on-background-variant",
   "[clip-path:polygon(0_0,100%_55%,100%_100%,0%_100%);]",
 ]);
 

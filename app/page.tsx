@@ -3,7 +3,7 @@
 import { useState, ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/button";
 
 const data = {
   anyone: {
@@ -50,6 +50,64 @@ export default function Home({}: { children: ReactNode; className?: string }) {
   const { description } = data[role];
   return (
     <>
+      <div className="flex gap-2 flex-col">
+        <div className="flex gap-2 w-full">
+          <Button design="flat" intent="basic">
+            a
+          </Button>
+          <Button design="outlined" intent="basic">
+            b
+          </Button>
+          <Button design="tinted" intent="basic">
+            b
+          </Button>
+          <Button design="ghost" intent="basic">
+            b
+          </Button>
+        </div>
+        <div className="flex gap-2 w-full">
+          <Button design="flat" intent="main">
+            a
+          </Button>
+          <Button design="outlined" intent="main">
+            b
+          </Button>
+          <Button design="tinted" intent="main">
+            b
+          </Button>
+          <Button design="ghost" intent="main">
+            b
+          </Button>
+        </div>
+        <div className="flex gap-2 w-full">
+          <Button design="flat" intent="support">
+            a
+          </Button>
+          <Button design="outlined" intent="support">
+            b
+          </Button>
+          <Button design="tinted" intent="support">
+            b
+          </Button>
+          <Button design="ghost" intent="support">
+            b
+          </Button>
+        </div>
+        <div className="flex gap-2 w-full">
+          <Button design="flat" intent="accent">
+            a
+          </Button>
+          <Button design="outlined" intent="accent">
+            b
+          </Button>
+          <Button design="tinted" intent="accent">
+            b
+          </Button>
+          <Button design="ghost" intent="accent">
+            b
+          </Button>
+        </div>
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non
         erat in mi sagittis pellentesque non non dui. Ut quis arcu nec elit

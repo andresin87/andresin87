@@ -39,19 +39,19 @@ const config: Config = {
         serif: ["var(--font-dm-serif-display)", ...fontFamily.serif],
       },
       colors: {
-        border: "var(--color-outline-high)",
-        input: "var(--color-basic)",
-        ring: "var(--color-outline-high)",
-        background: "var(--color-background)",
-        foreground: "var(--color-on-background)",
-        primary: {
-          DEFAULT: "var(--color-main)",
-          foreground: "var(--color-on-main)",
-        },
-        secondary: {
-          DEFAULT: "var(--color-support))",
-          foreground: "var(--color-on-support))",
-        },
+        // border: "var(--color-outline-high)",
+        // input: "var(--color-basic)",
+        // ring: "var(--color-outline-high)",
+        // background: "var(--color-background)",
+        // foreground: "var(--color-on-background)",
+        // primary: {
+        //   DEFAULT: "var(--color-main)",
+        //   foreground: "var(--color-on-main)",
+        // },
+        // secondary: {
+        //   DEFAULT: "var(--color-support))",
+        //   foreground: "var(--color-on-support))",
+        // },
         //   destructive: {
         //     DEFAULT: "hsl(var(--destructive))",
         //     foreground: "hsl(var(--destructive-foreground))",

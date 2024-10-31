@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils/cn";
+import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 export const NavMenu = ({ className }: { className?: string }) => {

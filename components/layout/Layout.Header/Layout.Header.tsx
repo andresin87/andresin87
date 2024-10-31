@@ -22,7 +22,7 @@ export const LayoutHeader = ({ children, className }: LayoutHeaderType) => {
         data-component="layout.header"
         className={cn(layoutHeaderStyles(), className)}
       >
-        <div className="absolute top-0 -z-10 bg-background-variant opacity-75 h-full w-full"></div>
+        <div className="absolute top-0 -z-10 bg-background-variant opacity-75 h-full w-full" />
         <Slottable>{children}</Slottable>
       </Slot>
       {/*<div className="absolute md:top-0 py-2 sm:py-3 lg:py-10 h-[52px] sm:h-[60px] lg:h-[116px]"></div>*/}

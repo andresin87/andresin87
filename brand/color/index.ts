@@ -15,7 +15,13 @@ export type ColorPalette = {
   colorMainContainer: PlainColorObject;
   colorOnMainContainer: PlainColorObject;
   colorSupport: PlainColorObject;
+  colorOnSupport: PlainColorObject;
+  colorSupportContainer: PlainColorObject;
+  colorOnSupportContainer: PlainColorObject;
   colorAccent: PlainColorObject;
+  colorOnAccent: PlainColorObject;
+  colorAccentContainer: PlainColorObject;
+  colorOnAccentContainer: PlainColorObject;
   colorSuccess: PlainColorObject;
   colorAlert: PlainColorObject;
   colorError: PlainColorObject;
@@ -23,16 +29,36 @@ export type ColorPalette = {
   colorNeutral: PlainColorObject;
   colorOutline: PlainColorObject;
   colorOutlineHigh: PlainColorObject;
+  colorHalo: PlainColorObject;
+  colorOnHalo: PlainColorObject;
   colorSurface: PlainColorObject;
 };
 
-const black = new Color("black").to("oklch");
-const white = new Color("white").to("oklch");
 const transparent = new Color("transparent").to("oklch");
 
 const isLight = (color: any) => new Color(color).to("oklch").l > 50;
 
-export const getColors = (color: string): ColorPalette => {
+export const getColors = (
+  color: string,
+  settings: { dark?: string; bright?: string },
+): ColorPalette => {
+  const hasDark = settings.dark !== undefined;
+  const hasBright = settings.dark !== undefined;
+
+  const clr = new Color(color).to("oklch");
+
+  const dark = hasDark
+    ? new Color(settings.dark).to("oklch")
+    : new Color("#030303").to("oklch");
+  if (dark.h === NaN) {
+    dark.set({ h: clr.h });
+  }
+  const bright = hasBright
+    ? new Color(settings.bright).to("oklch")
+    : new Color("#0D0D0D").to("oklch");
+  if (bright.h === NaN) {
+    bright.set({ h: clr.h });
+  }
   const colorBackground = new Color(color).to("oklch").set({
     l: isLight(color) ? 0.995 : 0.1,
     c: 0.05,
@@ -52,27 +78,49 @@ export const getColors = (color: string): ColorPalette => {
 
   const colorBasic = new Color(color)
     .to("oklch")
-    .set({ l: isLight(color) ? 0.15 : 0.9, c: 0.1 });
+    .set({ l: 0.2,  c: 0.2 });
   const colorOnBasic = new Color(colorBasic)
     .to("oklch")
-    .set({ l: isLight(color) ? 0.9 : 0.15 });
+    .set({ l: 1, c: 0 });
   const colorBasicContainer = new Color(colorOnBasic)
     .to("oklch")
-    .set({ l: isLight(color) ? 1 : 0.2, c: 0.15 });
+    .set({ l: 1, c: 0.1 });
   const colorOnBasicContainer = new Color(colorBasic)
     .to("oklch")
-    .set({ l: isLight(color) ? 0.2 : 1, c: 0.15 });
+    .set({ l: 0, c: 0 });
 
-  const colorMain = new Color(color)
-    .to("oklch")
-    .set({ l: isLight(color) ? 0.6 : 0.4, c: 0.2 });
-  const colorOnMain = isLight(colorMain) ? black : white;
+  const colorMain = new Color(color).to("oklch").set({ l: 0.5, c: 0.5 });
+  const colorOnMain = new Color(color).to("oklch").set({ l: 1, c: 0 });
   const colorMainContainer = new Color(color)
     .to("oklch")
-    .set({ l: isLight(color) ? 0.9 : 0.2, c: 0.2 });
+    .set({ l: 0.9, c: 0.1 });
   const colorOnMainContainer = new Color(color)
     .to("oklch")
-    .set({ l: isLight(color) ? 0.2 : 0.7, c: 0.2 });
+    .set({ l: 0.2, c: 0.1 });
+
+  const _colorSupport = new Color(color).to("oklch").set({ l: 0.5, c: 0.2 });
+  const colorSupport = new Color(_colorSupport).to("oklch").set({});
+  const colorOnSupport = new Color(_colorSupport)
+    .to("oklch")
+    .set({ l: 1, c: 0 });
+  const colorSupportContainer = new Color(_colorSupport)
+    .to("oklch")
+    .set({ l: 0.9, c: 0.05 });
+  const colorOnSupportContainer = new Color(_colorSupport)
+    .to("oklch")
+    .set({ l: 0.2, c: 0.1 });
+
+  const _colorAccent = new Color(color).to("oklch").set({ l: 0.5, c: 1 });
+  const colorAccent = new Color(_colorAccent).to("oklch").set({});
+  const colorOnAccent = new Color(_colorAccent)
+    .to("oklch")
+    .set({ l: 1, c: 0 });
+  const colorAccentContainer = new Color(_colorAccent)
+    .to("oklch")
+    .set({ l: 0.9, c: 0.05 });
+  const colorOnAccentContainer = new Color(_colorAccent)
+    .to("oklch")
+    .set({ l: 0.2, c: 0.1 });
 
   const colorOutline = new Color(color)
     .to("oklch")
@@ -80,6 +128,13 @@ export const getColors = (color: string): ColorPalette => {
   const colorOutlineHigh = new Color(color)
     .to("oklch")
     .set({ l: isLight(color) ? 0.3 : 0.9, c: 0 });
+
+  const colorHalo = new Color(color)
+    .to("oklch")
+    .set({ l: isLight(color) ? 0 : 1, c: 0 });
+  const colorOnHalo = new Color(color)
+    .to("oklch")
+    .set({ l: isLight(color) ? 1 : 0, c: 0 });
 
   return {
     // background
@@ -97,12 +152,23 @@ export const getColors = (color: string): ColorPalette => {
     colorOnMain,
     colorMainContainer,
     colorOnMainContainer,
+    // support
+    colorSupport,
+    colorOnSupport,
+    colorSupportContainer,
+    colorOnSupportContainer,
+    // accent
+    colorAccent,
+    colorOnAccent,
+    colorAccentContainer,
+    colorOnAccentContainer,
     // outline
     colorOutline,
     colorOutlineHigh,
+    // halo
+    colorHalo,
+    colorOnHalo,
     // others
-    colorSupport: new Color(color),
-    colorAccent: new Color(color),
     colorSuccess: new Color(color),
     colorAlert: new Color(color),
     colorError: new Color(color),
